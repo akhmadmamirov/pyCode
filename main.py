@@ -31,7 +31,6 @@ test_prompt = PromptTemplate(
     input_variables=["code", "language"]
 )
 
-
 # Chain 1
 code_chain = LLMChain(
     llm=llm,
